@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArXiv Paper Discovery</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Liked Papers</h2>
+            <div id="liked-papers"></div>
+            <button id="reset-btn" class="reset-button">
+                <i class="fas fa-trash-alt"></i> Reset All Data
+            </button>
+        </div>
+        
+        <div class="main-content">
+            <div class="search-container">
+                <div class="search-input-wrapper">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" id="search-input" placeholder="Search ArXiv papers...">
+                </div>
+            </div>
+            
+            <div class="card-container">
+                <div id="paper-cards"></div>
+                <div class="action-buttons">
+                    <button id="dislike-btn" class="action-button dislike">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <button id="like-btn" class="action-button like">
+                        <i class="fas fa-heart"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="paper-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html> 
