@@ -3,6 +3,8 @@
 ## Overview
 
 This is a Tinder-style paper discovery application for ArXiv research papers. Users can search for papers and swipe through them, saving interesting ones for later reference.
+![image](https://github.com/user-attachments/assets/d7d294d5-4052-46cf-9a80-edfc423c911e)
+
 
 ## Key Features
 
